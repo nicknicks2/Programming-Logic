@@ -1,0 +1,29 @@
+Algoritmo "notas"
+
+Var
+          nota1, nota2, notaFinal  : real
+
+Inicio
+      escreva("Digite a primera nota: ")
+      leia(nota1)
+      escreva("Digite a segunda nota: ")
+      leia(nota2)
+      
+      notaFinal <- nota1 + nota2
+
+      
+      escreval
+      escreval("NOTA FINAL = ", notaFinal:5:1)
+      
+      se notaFinal < 60 entao
+        escreval
+        escreval ("REPROVADO")
+        senao
+             se notaFinal > 60 entao
+        escreval
+        escreval ("APROVADO")
+        fimse
+      fimse
+
+
+Fimalgoritmo
